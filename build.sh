@@ -1,3 +1,3 @@
 #!/bin/bash
-rm -f bin/wct
+rm -f bin/wu
 go build -o bin/wct
