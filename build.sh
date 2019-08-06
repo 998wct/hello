@@ -1,3 +1,3 @@
 #!/bin/bash
-rm -f bin/cicd
-go build -o bin/cicd
+rm -f bin/wct
+go build -o bin/wct
