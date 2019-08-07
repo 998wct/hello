@@ -1,5 +1,5 @@
 FROM nginx
 MAINTAINER wct
 EXPOSE 8085
-ADD ["/wct","/usr/bin"]
-CMD /usr/bin/wct
+ADD ["/wct.go","."]
+CMD ./wct.go
